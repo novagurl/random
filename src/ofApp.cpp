@@ -11,11 +11,11 @@ Y = {630, 400, 900,40, 200, 0, 90, 30}; //set of y-coordinates for jewel
 	random_device rd;
 	mt19937 eng1(rd());
 	
-	//uniform_int_distribution <> jewel_x(0, 1200);
-    //uniform_int_distribution <> jewel_y(0, 970);
+	//uniform_int_distribution <int> jewel_x(0, 1200);
+    //uniform_int_distribution <int> jewel_y(0, 970);
     
-    normal_distribution <> jewel_x(1015, 985);
-    normal_distribution <> jewel_y(815, 785);
+    normal_distribution <float> jewel_x(1015, 985);
+    normal_distribution <float> jewel_y(815, 785);
    
 
 	for(int n=0 ;  n < 20 ;  n++) 
